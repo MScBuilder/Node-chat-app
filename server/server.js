@@ -11,6 +11,6 @@ app.use(express.static(publicPath));
 //     res.render('index.html');
 // });
 
-app.listen(3000, () => {
+app.listen(port, () => {
 console.log(`Server is up and running on port ${port}`);
 });
