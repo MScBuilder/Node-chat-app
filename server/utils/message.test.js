@@ -3,6 +3,7 @@ const expect = require('expect');
 const {generateMessage, generateLocationMessage} = require('./message');
 
 describe('generateMessage', () => {
+
     it('Should generate correct message object', () => {
         const from = 'testSuite';
         const text = 'testMessage';
